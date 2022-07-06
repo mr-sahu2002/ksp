@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/* body{
+    width: 80%;
+    margin: 0px auto;
+} */
+
+/* ======================================================header================================== */
+.logo{
+    height: 100px;
+    width: 100px;
+    /* background: rgba(215, 115, 115, 0.274) !important; */
+}
+
+.brand{
+    background-color: rgb(130, 130, 202);
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title h1{
+    font-size: 40px;
+}
+.title h5{
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.banner{
+    height:60vh;
+}
+
+
+/* ==================================================== dropdown ================================ */
+ul{
+    padding: 0;
+    list-style: none;
+    /* background: #f2f2f2; */
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: left;
+}
+ul li a{
+    display: block;
+    padding: 8px 25px;
+    color: #333;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #fff;
+    background: #939393;
+}
+ul li ul.dropdown{
+    min-width: 100%; /* Set width of the dropdown */
+    background: #f2f2f2;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+ul li:hover ul.dropdown{
+    display: block;	/* Display the dropdown */
+}
+ul li ul.dropdown li{
+    display: block;
+}
+

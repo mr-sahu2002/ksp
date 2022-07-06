@@ -1,0 +1,18 @@
+@media only screen and (max-width:480px){
+.l1{
+    height: 80px;
+    width: 80px;
+}
+.l2{
+        visibility:collapse;
+    }
+
+    .title{height: 5vh;}
+    .title h5{
+        visibility: hidden;
+    }
+
+    .title h1{
+        font-size:2rem;
+    }
+}
